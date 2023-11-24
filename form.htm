@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+  <!-- <link rel ="stylesheet" href="Style.css"/> -->
+<style>
+    body {
+     background-color: cornflowerblue;
+     text-align: center;
+     font-family: Arial, sans-serif;
+     margin: 0;
+ }
+
+ 
+ #container {
+     width: 400px;
+     height: 500px;
+     background-color:white;
+     margin: 10px auto;
+     padding: 20px; /* Add padding for internal spacing */
+ }
+.ma{
+     margin: 10px auto;
+}
+ 
+ form {
+     display: inline-block;
+     text-align: left;
+     margin: 20px ;
+ }
+ #sub-btn{
+     text-align: center;
+     font: outline;
+ }
+ </style>
+ </head>
+
+
+
+<body >
+  <div id ="container"> 
+    <h2 style="text-align: center;">Registration Form</h2>
+    <h4 style="text-align: right;">Date of Registration: <input type="date"/></h4>
+    <form>
+       <div class="ma">Full Name: <input type="text" placeholder="Enter Name "required/>  </div>
+       
+       <div class="ma">   Nick Name: <input type="text" placeholder="nickname"/>  </div>
+       <div class="ma">    Place of birth: <input type ="text" /></div>
+       
+       
+        <div class="ma">   Date Of birth:<input type="date" placeholder="DD-MM-YYYY"required/> </div>
+        <div class="ma">   Nationality: <input type ="text" /></div>
+        <div class="ma">   Email:<input type="email" placeholder="mail"/> </div>
+        <div class="ma">   Domacile: <input type="text" /></div>
+      
+       <div class="ma">
+           <input type ="radio" name="Gender"/>Male
+           <input type ="radio" name="Gender"/>Female
+      </div>
+        
+      <div class="ma"> Post Code: <input type="number"/></div>
+     
+      
+      <div class="ma"> Marital Status: <input type="text" /></div>
+       
+      
+      <div class="ma">Phone: <input type="number"/></div>
+      <div id="sub-btn"><input type="submit"/></div>
+
+
+    </form>
+ </div>
+    
+</body>
+
+</html> 

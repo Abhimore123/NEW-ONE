@@ -1,0 +1,86 @@
+Applications:
+Mobile apps
+Desktop apps: we need to install in our
+Web apps : we only need browser and internet 
+
+End User
+Client:
+Server: 
+
+1000 users for desktop
+
+for web application we need to run the program on a single machine
+We need to connect this machine through internet
+We need ip address of this machine on the internet
+
+Client: A device/browser that is accessing the web application
+
+Client will send a Request
+Server will process the request
+Server will respond according to the request
+
+How a server is going to inform a client about the status of a request?
+Whenever a server is responding to client then it will also give status code
+Status code from a server is going to be an integer
+And there will be a message also
+Key value pair combination
+
+2xx -> success
+200 -> OK
+204 -> NO CONTENT
+
+4xx -> failure due to client
+404 -> not found
+400 -> bad request
+
+5xx -> failure due to server 
+500 -> INTERNAL SERVER ERROR
+
+
+How a client sends a request to a server?
+A client is having a request method 
+A request method tells the server for what purpose request has been sent
+
+GET: fetching data from server
+POST: sending data to the server or creating a new resource
+PUT: to modify the existing resource on the server
+DELETE: for deleting any resource from the server 
+
+
+Frontend: UI Display the data Client
+
+HTML, CSS, Javascript
+HTML : is used to create layout of a web page, html displays the data on the web page
+CSS  : is used to style the web page 
+Javascript: is used to perform logical operations on the client side like form validation, calculation etc
+Bootstrap: Responsive, materialize css
+
+REACT JS: is a library to build frontend 
+
+	
+Backend: Server
+	 Entire Database 
+	 Store the data
+
+Server : Process data + Store the data
+	 Processing data: c, c++, Java, php, .net, ruby on rails, python, Javascript , Express (framework to develop server using js)
+	 Database : MySQL, oracle, mongodb, 100+
+
+Browser contains the JS Engine , chrome: v8 engine , spyder monkey
+
+Interpreter: executor 
+	
+NODE JS is a js interpreter 
+
+Full Stack developer 
+
+
+MERN Stack: Mongo DB, Express, React JS, Node js
+MEAN Stack: Mongo DB, Express, Angular, Node js
+
+
+
+
+
+
+
